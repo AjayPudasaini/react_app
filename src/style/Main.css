@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+.navbar
+{
+    background-color: #0a2e52!important;
+}
+
+.nav-link
+{
+    color: #fff !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+.nav-link:hover
+{
+    color: rgb(199, 187, 187) !important;
+}
+
+.navbar-toggler-icon{
+    background-color: #fff;
+    color: rgb(8, 8, 8) !important;
+}
+
+
+.dropdown-menu
+{
+    background-color: #0a2e52;
+    margin-top: 10px !important;
+}
+
+
+.dropdown-menu .dropdown-item
+{
+    color: white !important;
+    margin-top: 10px !important;
+}
+
+.dropdown-menu .dropdown-item:hover
+{
+    color: rgb(199, 187, 187) !important;
+    background: none;
+}
+
+.banner img{
+    margin-top: 20px !important;
+    height: 550px !important;
+    width: 100% !important;
+}
+
+.banner-content{
+    position: absolute;
+    top: 250px !important;
+    margin-left: 200px !important;
+    border-radius: 10px;
+    border: 1px solid rgb(214, 200, 200);
+    background-color: blanchedalmond;
+}
+
+
+.browse-content{
+    position: absolute;
+    top: 150px !important;
+    border-radius: 10px;
+    border: 1px solid rgb(214, 200, 200);
+    background-color: blanchedalmond;
+}
+
+.carousel .carousel-item img
+{
+    height: 500px !important;
+}
+
+.middleContent h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px !important;
+}
+
+.middleContent p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px !important;
+}
+.popularCourses h3{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 50px !important;
+}
+.middleContent .btnBrowseCourse
+{
+    border-radius: none !important;
+    background-color: rgb(29, 29, 92) !important;
+    color: cornsilk !important;
+    width: 300px !important;
+    height: 70px !important;
+    font-size: 30px;
+}
+
+.card
+{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.courseIMG{
+    border-radius: 5px !important;
+}
+
+.card:hover.courseIMG
+{
+    transform: scale(0.9);
+    transition-duration: 1s;
+}
+
+.courseView p{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none !important;
+    font-size: 18px ;
+}
+.profileUpdateSection{
+    margin-left: 140px !important;
+}
+
+.form-group .form-label
+{
+    text-align: right !important;
+}
+
+.top-banner img
+{
+    height: 300px !important;
+    width: 100% !important;
+    z-index: 2;
+}
+
+.course-contents{
+    position: absolute;
+    top: 120px !important;
+}
+
+.course-contents h4{
+    font-size: 50px;
+}
+.course-contents h6{
+    font-size: 20px;
+}
+.course-contents h4, h6{
+    color: blanchedalmond;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+.enroll-section{
+    border: 1px solid rgb(214, 200, 200);
+    border-radius: 10px;
+
+
+}
+
+.course-detail{
+    margin-top: -60px !important;
+}
+.course-content
+{
+    background-color: rgba(233, 224, 224, 0.5);
+    /* border: 1px solid rgb(214, 200, 200); */
+    
+}
+
+.video-title
+{
+    margin-top: 10px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* footer */
+
+
+#footer{
+    background-color: #0a2e52;
+    color:#b1b3b5; 
+    padding: 100px;     
+    }
+#footer h4{
+    color: white;
+    }
+
+#footer p{
+    text-align: justify-all;
+    }
+.information ul{
+    list-style: none;
+
+    }
+.information ul li a{
+    text-decoration: none;
+    color: #b1b3b5;
+    font-size: 16px;
+    font-family: Montserrat;
+}
+.information ul li:hover{
+    transform: scale(0.9);
+    transition-duration: 0.5s;
+
+}
+
+.legal ul{
+    list-style: none;
+
+    }
+.legal ul li a{
+    text-decoration: none;
+    color: #b1b3b5;
+    font-size: 16px;
+    font-family: Montserrat;
+
+    }
+.legal ul li:hover{
+    transform: scale(0.9);
+    transition-duration: 0.5s;
+
+    }
+
+.usefullinks ul{
+    list-style: none;
+
+    }
+.usefullinks ul li a{
+    text-decoration: none;
+    color: #b1b3b5;
+    font-size: 16px;
+    font-family: Montserrat;
+
+}
+.usefullinks ul li:hover{
+    transform: scale(0.9);
+    transition-duration: 0.5s;
+
+}
+
+.socialicon ul{
+    list-style: none;
+
+    }
+
+.socialicon ul li{
+    display: inline-block;
+    /*position: relative;*/
+    margin-top: 20px;
+
+
+}
+.socialicon ul li a{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    text-align: center;
+    line-height: 30px;
+    font-size: 15px;
+    margin: 0 10px;
+    display: block;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid white;
+    z-index: 1;
+}
+.socialicon ul li a .fa{
+
+    color: #262626;
+    transition: .5s;
+    z-index: 3;
+
+}
+.socialicon ul li a:hover .fa{
+    color:black;
+    transform: rotateY(360deg)!important;
+
+}
+
+.copyright
+{
+    text-align: center !important;
+}
+
+
+.dashboard{
+    background-color: blanchedalmond !important;
+    
+}
+
+.dashboard .nav-link
+{
+    color: black !important; 
+}
+
+.vertical
+{
+    background-color: rgb(45, 9, 53);
+}
+
+.vertical .nav .nav-item .nav-link
+{
+    color: rgb(247, 220, 220) !important;
+    border-bottom: 1px solid blanchedalmond;
+}
+
+.vertical .nav .nav-item .nav-link:hover
+{
+    color: rgb(99, 89, 89) !important;
+    border-bottom: 1px solid rgb(150, 147, 144);
+}
+
+.card img{
+    height: 200px !important;
+    width: 100% !important;
+}
+
+.video video[poster]{
+    height: 500px !important;
+    width: 100% !important;
+}
+
+.cThumb img{
+    width: 200px !important;
+    height: 100px !important;
+}
+
+.reviewed-by .reviewedBy-picture{
+    width: 50px !important;
+    height: 50px !important;
+    border: none;
+}
+
+
+.reviewed-by .reviewedBy-username{
+    margin-top: 15px !important;
+    margin-left: 25px !important;
+    color: black; 
+}
+
+.reviewed-content p{
+    margin-left: 80px !important;
+    color: black; 
+}
+
+
+
+
+
+
+
+
+
+
+.maincard {
+    position: relative;
+    width: 300px;
+    height: 300px
+}
+
+.thecard {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.8s ease
+}
+
+.thecard:hover {
+    transform: rotateY(180deg)
+}
+
+.thefront {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: hidden;
+    background: #d69797;
+    color: rgb(26, 26, 26);
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid #eee;
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    padding: 10px
+}
+
+.theback {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background-color: hidden;
+    background: #d69797;
+    color: rgb(26, 22, 22);
+    border-radius: 10px;
+    transform: rotateY(180deg);
+    border: 1px solid #eee;
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    padding: 10px
+}
+
+.user_name {
+    color: #eee;
+    font-size: 10px;
+    margin-top: 0px
+}
+
+.about {
+    font-size: 12px
+}
